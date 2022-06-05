@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "description" content = "Коллекция стильной и качесвенной обуви" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин обуви</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <!-- <button class="upward"  onclick="topFunction()" id="myBtn">
+        <span><i class="fa-solid fa-angles-up"></i></span>
+    </button> -->
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <div class="logo">
+                    <h1 class="logo-title">Tinatin</h1>
+                </div>
+                <div class="search">
+                    <form class="search-form" action="">
+                        <input type="text" placeholder="Поиск..." class="search-input" required>
+                        <span class="icon__search"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    </form>
+                </div>
+                <div class="user__box">
+                    <a href="" target="_self" class="user__link">
+                        <div class="user__item">
+                            <span><i class="fa-solid fa-language"></i></span>
+                        </div>
+                        <span class="user-decor">Кыр / Рус</span>
+                    </a>
+                    <a href="#popup" class="user__link">
+                        <div class="user__item">
+                            <span><i class="fa-solid fa-user"></i></span>
+                        </div>
+                        <span class="user-decor">Войти</span>
+                    </a>
+                    <a href="" class="user__link user__link-decor">
+                        <div class="user__item">
+                            <span class="icon--msg"><i class="fa-solid fa-basket-shopping"></i>
+                                <span class="msg">2</span>
+                            </span>
+                        </div>
+                        <span class="user-decor">Корзина</span>
+                    </a>
+                    <div class="user__box_dropdown">
+                        <ul></ul>
+                        <div class="user__box_order">
+                            <div>
+                                <p>
+                                    <span >Итого :</span>  
+                                    <span class="total_cart">00 </span> 
+                                </p>
+                                <p>
+                                    <span>Количество (шт.)</span>  
+                                    <span class="cart_count">0</span> 
+                                </p>
+                            </div>
+                            <p class="user__box_order-delivery">
+                                <span>Доставка :</span>
+                                <a href="#"> Выбрать адрес доставки</a>
+                            </p>
+                            <p class="user__box_order-btn">
+                                <button type="submit">Заказать</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="hamburger hamburger--collapse" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <div class="mobil">
+                    <ul class="mobil__list">
+                        <li class="mobil-item mobil-item__search">
+                            <form class="mobil-search__form">
+                                <input type="text" placeholder="Введите название товара..." class="mobil-search__input" required>
+                                <span class="icon__search--mobil"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            </form>
+                        </li>
+                        <li class="mobil-item"><a href="#" class="mobil-link">главная</a> </li>
+                        <li class="mobil-item"><a href="#" class="mobil-link">Каталог</a> </li>
+                        <li class="mobil-item"><a href="#" class="mobil-link">Оплата</a> </li>
+                        <li class="mobil-item"><a href="#" class="mobil-link">Доставка</a> </li>
+                        <li class="mobil-item"><a href="#" class="mobil-link">Возврат</a> </li>
+                        <li class="mobil-item"><a href="#" class="mobil-link">Скидки</a> </li>
+                        <li class="mobil-item"><a href="#" class="mobil-link">Блог</a> </li>
+                        <li class="mobil-item"><a href="#" class="mobil-link">Контакты</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="main.html" class="nav__link">главная</a></li>
+                <li class="nav__item"><a href="main.html" class="nav__link">каталог <span><i class="fa-solid fa-chevron-down"></i></span> </a>
+                    <div class="subMenu">
+                        <ul class="subWrap">
+                            <li class="subWrapItem"><h3 class="subTitle">Летняя</h3>
+                                <ul>
+                                    <li><a href="#">лоферы</a></li>
+                                    <li><a href="#">топсайдеры</a></li>
+                                    <li><a href="#">Балетки</a></li>
+                                    <li><a href="#">Эспадрильи</a></li>
+                                    <li><a href="#">Тапочки и слиперы</a></li>
+                                </ul>
+                            </li>
+                            <li class="subWrapItem"><h3 class="subTitle">Осенняя</h3>
+                                <ul>
+                                    <li><a href="#">Туфли</a></li>
+                                    <li><a href="#">Кроссовки</a></li>
+                                    <li><a href="#">Кеды</a></li>
+                                    <li><a href="#">Зимняя</a></li>
+                                    <li><a href="#"></a></li>
+                                </ul>
+                            </li>
+                            <li class="subWrapItem"><h3 class="subTitle">Весенняя</h3>
+                                <ul>
+                                    <li><a href="#">Туфли</a></li>
+                                    <li><a href="#">Кроссовки</a></li>
+                                    <li><a href="#">Кеды</a></li>
+                                    <li><a href="#">Слипоны</a></li>
+                                    <li><a href="#"></a></li>
+                                </ul>
+                            </li>
+                            <li class="subWrapItem"><h3 class="subTitle">Зимняя</h3>
+                                <ul>
+                                    <li><a href="#">Полуботинки</a></li>
+                                    <li><a href="#">Ботинки</a></li>
+                                    <li><a href="#">Угги</a></li>
+                                    <li><a href="#">Полусапоги</a></li>
+                                    <li><a href="#">Сапоги</a></li>
+                                </ul>
+                            </li>
+                            <li class="subWrapItem"><h3 class="subTitle">Демисезонная</h3>
+                                <ul>
+                                    <li><a href="#">Туфли</a></li>
+                                    <li><a href="#">Кроссовки</a></li>
+                                    <li><a href="#">Полуботинки</a></li>
+                                    <li><a href="#"> дезерты</a></li>
+                                    <li><a href="#"> чукка</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav__item"><a href="payment.html" class="nav__link" target="_self">Оплата</a></li>
+                <li class="nav__item"><a href="delivery.html" class="nav__link" target="_self">Доставка</a></li>
+                <li class="nav__item"><a href="refund.html" class="nav__link" target="_self">Возврат</a></li>
+                <li class="nav__item"><a href="rebate.html" class="nav__link" target="_self">Скидки</a></li>
+                <li class="nav__item"><a href="blog.html" class="nav__link" target="_self">Блог</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link" target="_self">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="banner">
+        <div class="container conSlider">
+            <div class="swiper swiperBanner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slideBanner">
+                        <div class="bannerText">
+                            <span class="b-t">Johnston & Murphy</span>
+                            <span></span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ex doloremque repudiandae temporibus in at, ipsam, iusto 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slideBanner1">
+                        <div class="bannerText">
+                            <span class="b-t">Johnston & Murphy</span>
+                            <span></span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ex doloremque repudiandae temporibus in at, ipsam, iusto 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slideBanner2">
+                        <div class="bannerText">
+                            <span class="b-t">Johnston & Murphy</span>
+                            <span></span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ex doloremque repudiandae temporibus in at, ipsam, iusto 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slideBanner3">
+                        <div class="bannerText">
+                            <span class="b-t">Johnston & Murphy</span>
+                            <span></span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ex doloremque repudiandae temporibus in at, ipsam, iusto 
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <!-- <div class="swiper-scrollbar"></div> -->
+             </div>
+        </div>
+    </div>
+    <section class="content__block">
+        <div class="container">
+            <p>
+                <span class="slide__title">Летняя обувь</span>
+                <!-- <span class="title__slogan" id="sezon1"> ( лето 2022 )</span> -->
+            </p>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="purchase.html" class="slide__link" target="_self">
+                                    <img src="img/botas.jpg" alt="" class="img__slide">
+                                    <!-- <button class="sw__btn">Быстрый просмотр</button> -->
+                                    <div class="shildik">
+                                        <span class="shildik-span">Новинка</span>
+                                        <span class="shildik-color"></span>
+                                    </div>
+                                    <p class="img__textd "><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">120</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span >Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                                <!-- <button class="addBtn" type="submit">Добавить в корзину</button> -->
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <div class="shildik">
+                                        <span class="shildik-span shildik-sale">Скидка</span>
+                                        <span class="shildik-decor shildik-color sale"></span>
+                                    </div>
+                                    <p class="img__textd"><span>Туфли</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">200</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <!-- <button class="addBtn" type="submit">Добавить в корзину</button> -->
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Балетки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">450</span>
+                                        <del >2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span >Размер: 34 - 41</span></div>
+                                </a>
+                                <!-- <button class="addBtn" type="submit">Добавить в корзину</button> -->
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Мокасины</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">6000</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <!-- <button class="addBtn" type="submit">Добавить в корзину</button> -->
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span >Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del >2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+            <p>
+                <span class="slide__title">Осенняя обувь</span>
+                <!-- <span class="title__slogan" id="sezon2"> ( осень 2022 )</span> -->
+            </p>
+            <div class="swiper swiper-01">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <div class="shildik">
+                                        <span class="shildik-span shildik-sale">Скидка</span>
+                                        <span class="shildik-decor shildik-color sale"></span>
+                                    </div>
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del >2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <div class="shildik">
+                                        <span class="shildik-span">Новинка</span>
+                                        <span class="shildik-color"></span>
+                                    </div>
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+            <p>
+                <span class="slide__title">Весенняя обувь</span>
+                <!-- <span class="title__slogan" id="sezon3"> ( весна 2022 )</span> -->
+            </p>
+            <div class="swiper swiper-02">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <div class="shildik">
+                                        <span class="shildik-span">Новинка</span>
+                                        <span class="shildik-color"></span>
+                                    </div>
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <div class="shildik">
+                                        <span class="shildik-span shildik-sale">Скидка</span>
+                                        <span class="shildik-decor shildik-color sale"></span>
+                                    </div>
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+            <p>
+                <span class="slide__title">Зимняя обувь</span>
+                <!-- <span class="title__slogan" id="sezon4"> ( зима 2022 )</span> -->
+            </p>
+            <div class="swiper swiper-03">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <div class="shildik">
+                                        <span class="shildik-span">Новинка</span>
+                                        <span class="shildik-color"></span>
+                                    </div>
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text" >
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <div class="shildik">
+                                        <span class="shildik-span shildik-sale">Скидка</span>
+                                        <span class="shildik-decor shildik-color sale"></span>
+                                    </div>
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+            <p>
+                <span class="slide__title">Демисезонная обувь</span>
+                <!-- <span class="title__slogan" id="sezon5"> ( модели 2022 )</span> -->
+            </p>
+            <div class="swiper swiper-04">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <div class="shildik">
+                                        <span class="shildik-span">Новинка</span>
+                                        <span class="shildik-color"></span>
+                                    </div>
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <div class="shildik">
+                                        <span class="shildik-span shildik-sale">Скидка</span>
+                                        <span class="shildik-decor shildik-color sale"></span>
+                                    </div>
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span >Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__block-img">
+                            <div class="slide-img__item">
+                                <a href="" class="slide__link">
+                                    <img src="img/sveta.jpg" alt="" class="img__slide">
+                                    <p class="img__textd"><span>Босоножки</span></p>
+                                    <div class="img__text">
+                                        <span class="currency">$ </span> 
+                                        <span class="oprice">100</span>
+                                        <del>2500 сом</del>
+                                    </div>
+                                    <div class="img__textS"><span>Размер: 34 - 41</span></div>
+                                </a>
+                                <a class="addBtn" href="#">Добавить в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="logo">
+                <h1 class="logo-title">Tinatin</h1>
+            </div>
+            <div class="footer__block">
+                <ul class="footer__list">
+                    <span class="footer__title">Продавец</span>
+                    <li><a href="#" class="footer__link">О нас</a></li>
+                    <li><a href="#" class="footer__link">Контакты</a></li>
+                    <li><a href="#" class="footer__link">Сертификаты от производителей</a></li>
+                    <li><a href="#" class="footer__link">Наши партнеры</a></li>
+                    <li><a href="#" class="footer__link">Вакансии</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <span class="footer__title">Услуги</span>
+                    <li><a href="#" class="footer__link">Покупки в кредит</a></li>
+                    <li><a href="#" class="footer__link">Покупка в рассрочку</a></li>
+                    <li><a href="#" class="footer__link">Оптовый раздел</a></li>
+                    <li><a href="#" class="footer__link">Прочие вопросы</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <span class="footer__title">Покупателю</span>
+                    <li><a href="payment.html" class="footer__link">Оплата</a></li>
+                    <li><a href="delivery.html" class="footer__link">Доставка</a></li>
+                    <li><a href="refund.html" class="footer__link">Возврат</a></li>
+                    <li><a href="#" class="footer__link">Акции и скидки</a></li>
+                    <li><a href="#" class="footer__link">Отзывы и предложения</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <span class="footer__title">Быстрая связь</span>
+                    <li><a href="tel:+996709308101" class="footer__link">тел: (312) 55 55 55<br>
+                            <span>пон - суб: 9 - 18</span>
+                        </a>
+                    </li>
+                    <li>
+                        <ul class="foot-icon__block">
+                            <li><a href="https://web.telegram.org/z/" target="_blank">
+                                    <img src="img/icon.png" alt="" class="foot__icon">
+                                </a></li>
+                            <li><a href="https://vk.com/" target="_blank">
+                                    <img src="img/icon2.png" alt="" class="foot__icon">
+                                </a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank">
+                                    <img src="img/icon3.png" alt="" class="foot__icon">
+                                </a></li>
+                            <li><a href="https://ru-ru.facebook.com/" target="_blank">
+                                    <img src="img/icon4.png" alt="" class="foot__icon">
+                                </a>
+                            </li>
+                        </ul>
+                        <div><a href="#" class="footer__link">Способы оплаты</a>
+                            <div class="icon-card">
+                                <a href=""><img src="img/visa.png" alt="" class="foot__icon-card"></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="footer__bottom">
+        <div class="footer__box">
+            <span><i class="fa fa-copyright"></i></span>
+            <span class="f-slogan">интернет - магазин 2021 - 2022</span>
+        </div>
+    </div>
+    <div class="bottom-mobil__menu">
+        <div class="container">
+            <div class="bottom__box">
+                <a href="" target="_self" class="user__link">
+                    <div class="user__item">
+                        <span><i class="fa-solid fa-language"></i></span>
+                    </div>
+                    <span class="user-decor">Кыр / Рус</span>
+                </a>
+                <a href="#popup" class="user__link">
+                    <div class="user__item">
+                        <span><i class="fa-solid fa-user"></i></span>
+                    </div>
+                    <span class="user-decor">Войти</span>
+                </a>
+                <a href="" class="user__link user__link-decor">
+                    <div class="user__item">
+                        <span class="icon--msg"><i class="fa-solid fa-basket-shopping"></i>
+                            <span class="msg">0</span>
+                        </span>
+                    </div>
+                    <span class="user-decor">Корзина</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="popup" class="popup">
+        <a href="#header" class="popup__area"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#header" class="reg__link"></a>
+                <form class="form">
+                    <div class="popup__title">Авторизация</div>
+                    <label for="lab_1" class="f__label">Логин</label>
+                    <div class="form__input">
+                        <input type="password" class="f__input" id="lab_1" title="Введите логин" required>
+                    </div>
+                    <label for="lab_2" class="f__label">Пароль</label>
+                    <div class="form__input">
+                        <input type="password" class="f__input" id="lab_2" title="Введите пароль" required>
+                    </div>
+                    <button class="form__btn" type="submit">Войти</button>
+                </form>
+                <div class="password__link">
+                    <a href="#popup__registr" class="sign__up">Регистрация</a><br>
+                    <a href="#popup__parol" class="sign__up sign__up-decor">Забыли пароль ?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup__registr" id="popup__registr">
+        <a href="#header" class="popup__area"></a>
+        <div class="p-registr__body">
+            <div class="p-registr__content">
+                <a href="#header" class="reg__link"></a>
+                <form action="#" class="form-registr">
+                    <label for="lab_3" class="f__label label-d">Логин</label>
+                    <div class="form__input">
+                        <input type="text" class="f__input f-decor" id="lab_3" title="Введите логин" required>
+                    </div>
+                    <label for="lab_4" class="f__label label-d">Email</label>
+                    <div class="form__input">
+                        <input type="email" class="f__input f-decor" id="lab_4" title="Введите email" required>
+                    </div>
+                    <label for="lab_5" class="f__label label-d">Пароль</label>
+                    <div class="form__input">
+                        <input type="password" class="f__input f-decor" id="lab_5" title="Введите пароль" required>
+                    </div>
+                    <label for="lab_6" class="f__label label-d">Повторить пароль</label>
+                    <div class="form__input">
+                        <input type="password" class="f__input f-decor" id="lab_6" title="Повторите пароль" required>
+                    </div>
+                    <button class="form__btn reg__btn" type="submit" id="lamp">Я все заполнил</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="popup__registr" id="popup__parol">
+        <a href="#header" class="popup__area"></a>
+        <div class="p-registr__body">
+            <div class="p-registr__content">
+                <a href="#header" class="reg__link"></a>
+                <form action="#" class="form-registr">
+                    <h3 class="parol__title">Восстановление пароля :</h3>
+                    <label for="lab_7" class="f__label label-d">* Ваш Email:</label>
+                    <div class="form__input">
+                        <input type="email" class="f__input f-decor" id="lab_7" title="Введите email" required>
+                    </div>
+                    <button class="form__btn reg__btn" type="submit">Выслать пароль</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="popup__registr" id="lamp">
+        <a href="#header" class="popup__area"></a>
+        <div class="p-registr__body">
+            <div class="p-registr__content">
+                <img src="img/success.png" alt="">
+                <p class="p__text">Вы зарегистрировались, для активации аккаунта
+                    зайдите на почту.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script>new Swiper('.swiperBanner')</script>
+    <script>
+        new Swiper('.swiper')
+    </script>
+    <script>new Swiper('.swiper-01')</script>
+    <script>new Swiper('.swiper-02')</script>
+    <script> new Swiper('.swiper-03')</script>
+    <script>new Swiper('.swiper-04')</script>
+    <script src="js/main.js"></script>
+    
+    <!-- <script src="js/train.js"></script> -->
+    <script src="js/add_to_cart.js"></script>
+    <script>
+        var hamburger = document.querySelector(".hamburger");
+        var mobil = document.querySelector(".mobil");
+        hamburger.addEventListener("click", function () {
+            hamburger.classList.toggle("is-active");
+            mobil.classList.toggle("is-active");
+        });
+    </script>
+</body>
+
+</html>
